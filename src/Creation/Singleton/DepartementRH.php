@@ -5,7 +5,8 @@ declare(strict_types=1);
 namespace BCaruso\Creation\Singleton;
 
 /**
- * Classe DepartementRH utilisant le pattern Singleton
+ * Classe DepartementRH utilisant le pattern Singleton.
+ *
  * Cette classe gère tous les employés de l'entreprise et assure
  * qu'il n'existe qu'une seule instance du département RH
  */
@@ -23,7 +24,7 @@ class DepartementRH
         echo "Initialisation du département RH\n";
     }
 
-    // Empêche la clonage de l'instance
+    // Empêche le clonage de l'instance
     private function __clone()
     {
     }
@@ -34,7 +35,7 @@ class DepartementRH
     }
 
     /**
-     * Récupère l'instance unique de la classe DepartementRH
+     * Récupère l'instance unique de la classe DepartementRH.
      *
      * Cette méthode implémente le modèle de conception Singleton en s'assurant qu'une seule
      * instance de la classe DepartementRH existe à tout moment de l'application.
