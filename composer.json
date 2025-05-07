@@ -1,0 +1,20 @@
+{
+  "name": "brunocaruso/php-designpattern",
+  "description": "Gestion des employés avec pattern Singleton",
+  "type": "project",
+  "require": {
+    "php": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "BCaruso\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Bruno Caruso",
+      "email": "contact@brunocaruso.fr"
+    }
+  ],
+  "minimum-stability": "stable"
+}
